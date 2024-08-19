@@ -19,7 +19,7 @@ const Navbar = () => {
               className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
               key={_id}
             >
-              <Link
+              {_id!==1007 ? <Link
                 activeClass="active"
                 to={link}
                 spy={true}
@@ -28,7 +28,7 @@ const Navbar = () => {
                 duration={500}
               >
                 {title}
-              </Link>
+              </Link> : <a className="rounded bg-black text-white border border-white py-2 px-4 hover:bg-white hover:text-black transition-colors duration-300"  href={link}>{title}</a>}
             </li>
           ))}
         </ul>
