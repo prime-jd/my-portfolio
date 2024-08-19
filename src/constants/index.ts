@@ -30,6 +30,10 @@ export const navLinksdata = [
     _id: 1006,
     title: "Contact",
     link: "contact",
-  },
+  },{
+    _id : 1007,
+    title : "Hire Me",
+    link : "https://drive.google.com/file/d/1W7vWlHb1EVXHoPKFpuFlEe8u2eVswQIw/view?usp=sharing"
+  }
   
 ];
