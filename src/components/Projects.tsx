@@ -1,6 +1,6 @@
 import Title from "./Title";
 import ProjectsCard from "./ProjectsCard";
-import { projectFour, projectOne, projectThree, projectTwo} from '../assets'
+import { projectFour, projectOne, projectThree, projectTwo, projectFive} from '../assets'
 import { FadeIn } from "./FadeIn";
 
 const Projects = () => {
@@ -46,13 +46,14 @@ const Projects = () => {
             github= "https://github.com/prime-jd/amazon-clone"
             link = ""
           />
-          {/* <ProjectsCard
-            title="E-commerce Website"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectOne}
+           <ProjectsCard
+            title="Social Media Website (JDconnect)"
+            des="A full-fledged Social Media site where user can create profile , post and interact with other users."
+            src={projectFive}
+            github="https://github.com/prime-jd/JdConnect"
+            link=""
           />
-          <ProjectsCard
+          { /*<ProjectsCard
             title="Chatting App"
             des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
