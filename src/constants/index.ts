@@ -33,7 +33,7 @@ export const navLinksdata = [
   },{
     _id : 1007,
     title : "Hire Me",
-    link : "https://drive.google.com/file/d/1tOc2-sUfASXDl0I6eSeeNImFY5Q-bpRE/view?usp=sharing"
+    link : "https://drive.google.com/file/d/1V_5uGJ7fkjPztturHqS_B7mIgMRMlri_/view?usp=sharing"
   }
   
 ];
