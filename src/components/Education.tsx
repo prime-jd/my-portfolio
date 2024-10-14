@@ -19,7 +19,7 @@ const Education = () => {
             title="Btech in Computer Science and Engineering"
             subTitle="Galgotias College of Engineering and Technology (2021-2025)"
          
-            des="percentage : 7.97/10"
+            des="percentage : 8.1/10"
           />
           <ResumeCard
             title="High School"
